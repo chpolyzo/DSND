@@ -13,4 +13,9 @@
 
 3. Go to http://0.0.0.0:3001/
 
+#### Here you have some screenshots of the app to classify messages from a text
+##### Distributions of Genres
 ![DisasterResponce](Disaster_Responce.png)
+##### Here you have the classification User Interface (UI)
+![Messages Classifications](Disaster_Responce_classify_message.png)
+![Running the app from the terminal](Disaster_Responce_Project_complete.png)
