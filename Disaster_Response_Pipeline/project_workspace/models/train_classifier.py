@@ -27,6 +27,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import fbeta_score, make_scorer
+from sklearn.metrics import classification_report
 
 import time
 import pickle
@@ -194,6 +195,7 @@ def display_results(y_test, y_pred, fitted_model, *cvd):
     print("Accuracy for each predictor:")
     print(accuracy)
     
+    print(classification_report(y_test, y_pred, target_names = y_test.columns))
     # get the params of the fitted model
     print("Get Pipeline parameters")
     for key in fitted_model.get_params().keys():
