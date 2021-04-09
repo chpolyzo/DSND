@@ -13,4 +13,4 @@
 
 3. Go to http://0.0.0.0:3001/
 
-![\DSND\Disaster_Response_Pipeline\project_workspace\app](/DSND/Disaster_Response_Pipeline/project_workspace/app/Disaster_Responce.png)
+![DisasterResponce](/DSND/Disaster_Response_Pipeline/project_workspace/app/Disaster_Responce.png)
