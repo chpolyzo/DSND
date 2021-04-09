@@ -42,8 +42,8 @@ def load_data(database_filepath):
     Description:
     Provides curated data from sql database to X numpy.arrary and y dataframe multiclass variables
     '''
-    engine = create_engine('sqlite:///' + database_filepath)
-    df = pd.read_sql_table('response_table',con=engine)
+    engine = 'sqlite:///' + database_filepath
+    df = pd.read_sql_table('response_table', con=engine)
     X = df.loc[:,'message'].values
     Y = df.iloc[:,4:]
     
@@ -126,6 +126,31 @@ def split_n_train(X, Y):
     
     return fitted, X_train, X_test, y_train, y_test
 
+def build_model():
+    """
+    Input:
+    no input
+    
+    output:
+    improoved model
+    
+    Description:
+    a cross validated fitted model with improved parameters using GridSearch.
+    In our case the number of trees in the forest.
+
+    """
+    pipeline = Pipeline([
+        ('vect', CountVectorizer(tokenizer = tokenize)),
+        ('tfidf', TfidfTransformer()),
+        ('clf', RandomForestClassifier())
+    ])
+
+    parameters = {'clf__n_estimators': [50]}
+
+    cv = GridSearchCV(pipeline, param_grid=parameters)
+
+    return cv
+
 def eval_model(X_test, fitted_model):
     """
     input:
@@ -147,10 +172,6 @@ def eval_model(X_test, fitted_model):
     print(f"Model evaluation time: {round(stop - start)} minutes") 
     
     return y_pred
-
-def build_model():
-    pass
-
 
 def evaluate_model(model, X_test, Y_test, category_names):
     pass

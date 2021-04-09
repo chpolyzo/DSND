@@ -70,7 +70,7 @@ def load_clean(messages_filepath, categories_filepath):
 
 
 def save_data(df, database_filename):
-    engine = create_engine('sqlite:///' + 'DisasterResponse')
+    engine = create_engine('sqlite:///' + database_filename)
     df.to_sql('response_table', engine, index=False, if_exists='replace')
 
 
