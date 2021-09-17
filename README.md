@@ -8,4 +8,4 @@ In order to complete the Nanodegree you need to have comleted the following proj
 - 2. Software Engineering (Deploy a Data Dashboard)
 - 3. Data Engineering (Disaster Response Pipeline)
 - 4. Experimental Design & Recommendations (Recommendation Engines)
-- 5. Data Scientist Capstone Project  
+- 5. Data Scientist Capstone Project Sparkify https://chpolyzo.medium.com/using-spark-to-predict-churn-76e02a245027
