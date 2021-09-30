@@ -1,0 +1,15 @@
+,0,1
+aggregationDepth,2,suggested depth for treeAggregate (>= 2)
+elasticNetParam,0.0,"the ElasticNet mixing parameter, in range [0, 1]. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty"
+family,auto,"The name of family which is a description of the label distribution to be used in the model. Supported options: auto, binomial, multinomial."
+fitIntercept,True,whether to fit an intercept term
+maxIter,100,maximum number of iterations (>= 0)
+predictionCol,prediction,prediction column name
+probabilityCol,probability,"Column name for predicted class conditional probabilities. Note: Not all models output well-calibrated probability estimates! These probabilities should be treated as confidences, not precise probabilities"
+rawPredictionCol,rawPrediction,raw prediction (a.k.a. confidence) column name
+regParam,0.0,regularization parameter (>= 0)
+standardization,True,whether to standardize the training features before fitting the model
+threshold,0.5,"threshold in binary classification prediction, in range [0, 1]"
+tol,1e-06,the convergence tolerance for iterative algorithms (>= 0)
+featuresCol,scaled,features column name
+labelCol,label,label column name
