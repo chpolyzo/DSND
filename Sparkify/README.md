@@ -46,5 +46,5 @@ Evaluate feature importance
 4. Results
 Model performance on testing set:
 
-testing logloss score	testing F1 score
-0.255286996	0.926573
+testing logloss score:0.255286996
+testing F1 score: 0.926573
