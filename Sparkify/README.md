@@ -43,8 +43,11 @@ Gradient-boosted tree (documentation)
 Tune hyperparameters of gradient-boosted tree
 Evaluate model performance
 Evaluate feature importance
+
 4. Results
+
 Model performance on testing set:
 
-testing logloss score:0.255286996
-testing F1 score: 0.926573
+Testing logloss score:0.255286996
+
+Testing F1 score: 0.926573
