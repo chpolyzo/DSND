@@ -6,13 +6,17 @@ The Power of spark in churn prediction
 In this udacity project we use PySpark to predict churn based on a 12GB dataset of a fictitious music service platform, "Sparkify". 
 
 1. Motivation
+
 Streaming services have to predict churn rate successfully, not only for developing profitable products and services for their customers but also for making everyday lives easier. We understand that the structured use of data drives digital transformation and improves productivity. However, data is still used more for manipulation rather than effectively provide better decisions.
+
 2. Datasets
+
 User activity dataset from Udacity
 The dataset logs user demographic information (e.g. user name, gender, location State) and activity (e.g. song listened, event type, device used) at individual timestamps.
 A small subset (~120MB) of the full dataset was used for the entire analysis due to budjet limitations to run the models in a cluster
 
 3. Data Exploration
+
 Data loading
 Assess missing values
 Exploratory data analysis
