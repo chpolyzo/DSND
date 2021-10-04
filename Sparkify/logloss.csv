@@ -1,4 +1,5 @@
-,logloss
-rf,0.3171748515385083
-lr,10.99054419436166
-gbt,0.3267271927801731
+Model,Logloss
+Random Forest,0.424599314
+Linear Regression,10.99054419
+Gradient Boosted Trees,0.326045459
+Random Forest (tuned),0.255286996
