@@ -20,7 +20,6 @@ A small subset (~120MB) of the full dataset was used for the entire analysis due
 Data loading
 Assess missing values
 Exploratory data analysis
-
 Overview of numerical columns: descriptive statistics
 Overview of non-numerical columns: possibel categories
 Define churn as cancellation of service
@@ -30,8 +29,6 @@ Numbers of sessions
 Gender
 Event types (e.g. add a friend, advertisement, thumbs up)
 Feature engineering for machine learning
-
-
 Split training and testing sets
 Choose evaluation metrics
 Create functions to build cross validation pipeline, train machine learning model, and evaluate model performance
@@ -39,7 +36,6 @@ Initial model evaluation with:
 Logistic regression
 Random forest (documentation)
 Gradient-boosted tree (documentation)
-
 Tune hyperparameters of gradient-boosted tree
 Evaluate model performance
 Evaluate feature importance
