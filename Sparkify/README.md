@@ -17,28 +17,28 @@ A small subset (~120MB) of the full dataset was used for the entire analysis due
 
 ## 3. Data Exploration
 
-Data loading
-Assess missing values
-Exploratory data analysis
-Overview of numerical columns: descriptive statistics
-Overview of non-numerical columns: possibel categories
-Define churn as cancellation of service
-Compare behavior of churn vs. non-churn users in terms of:
-Session length
-Numbers of sessions
-Gender
-Event types (e.g. add a friend, advertisement, thumbs up)
-Feature engineering for machine learning
-Split training and testing sets
-Choose evaluation metrics
-Create functions to build cross validation pipeline, train machine learning model, and evaluate model performance
-Initial model evaluation with:
-Logistic regression
-Random forest (documentation)
-Gradient-boosted tree (documentation)
-Tune hyperparameters of gradient-boosted tree
-Evaluate model performance
-Evaluate feature importance
+- Data loading
+- Assess missing values
+- Exploratory data analysis
+- Overview of numerical columns: descriptive statistics
+- Overview of non-numerical columns: possible categories
+- Define churn as cancellation of service
+- Compare behavior of churn vs. non-churn users in terms of:
+1. Session length
+2. Numbers of sessions
+3. Gender
+4. Event types (e.g. add a friend, advertisement, thumbs up)
+- Feature engineering for machine learning
+- Split training and testing sets
+- Choose evaluation metrics
+- Create functions to build cross validation pipeline, train machine learning model, and evaluate model performance
+- Initial model evaluation with:
+1. Logistic regression
+2. Random forest (documentation)
+3. Gradient-boosted tree (documentation)
+- Tune hyperparameters of gradient-boosted tree
+- Evaluate model performance
+- Evaluate feature importance
 
 ## 4. Results
 
