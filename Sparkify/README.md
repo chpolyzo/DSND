@@ -1,7 +1,7 @@
 
 Check out the blog at: https://chpolyzo.medium.com/the-power-of-spark-in-churn-prediction-8a83eeb65190
 
-The Power of spark in churn prediction
+# The Power of spark in churn prediction
 
 In this udacity project we use PySpark to predict churn based on a 12GB dataset of a fictitious music service platform, "Sparkify". 
 
