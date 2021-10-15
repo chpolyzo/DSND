@@ -47,3 +47,5 @@ Model performance on testing set:
 Testing logloss score: 0.255286996
 
 Testing F1 score: 0.926573
+
+![Other Metrics](https://github.com/chpolyzo/DSND/blob/master/Sparkify/visuals/metrics.png)
