@@ -1,0 +1,20 @@
+neighbourhood,Max availability in 365 days,Mean availability in 365 days,Min availability in 365 days,Sum of Elevators,Sum of entire home apartments,Sum of entire hotel rooms,Max minimum nights to book,Mean minimum nights to book,min_minimum_nights,Max price,Mean price,Min price,Sum of entire private rooms,Sum of shared rooms
+Bourse,365,230,1,228,1090,35,365,41,1,1300,173,30,107,2
+Buttes-Chaumont,365,179,1,104,854,7,365,49,1,1000,91,19,210,24
+Buttes-Montmartre,365,172,1,258,1961,59,365,54,1,2000,103,15,285,11
+Entrepôt,365,186,1,231,1435,43,365,39,1,1200,129,20,276,19
+Gobelins,365,173,1,71,603,19,365,43,1,800,100,10,203,7
+Hôtel-de-Ville,365,204,1,206,1067,10,365,49,1,1760,182,22,66,4
+Louvre,365,220,1,157,657,66,365,44,1,1179,204,10,96,1
+Luxembourg,365,210,1,152,796,99,365,47,1,1775,199,0,169,2
+Ménilmontant,365,168,1,83,936,8,365,52,1,1000,88,25,199,9
+Observatoire,365,205,1,92,718,34,365,48,1,1300,119,0,180,4
+Opéra,365,219,1,181,1016,110,365,42,1,1093,155,0,323,3
+Palais-Bourbon,365,213,1,106,713,52,365,55,1,2000,218,17,92,0
+Panthéon,365,205,1,125,824,66,365,44,1,1000,155,22,146,2
+Passy,365,216,1,229,1237,80,365,65,1,2000,175,10,169,8
+Popincourt,365,191,1,262,1813,35,365,50,1,1800,118,18,198,19
+Reuilly,365,193,1,94,765,29,365,42,1,1500,107,0,178,13
+Temple,365,212,1,240,1406,26,365,42,1,1500,168,25,80,6
+Vaugirard,365,202,1,231,1476,71,365,50,1,1513,127,0,243,12
+Élysée,365,236,1,191,804,118,365,52,1,1847,251,16,140,2
