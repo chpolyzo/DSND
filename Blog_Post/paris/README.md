@@ -40,7 +40,7 @@ you get a ~40 MB CSV file containing a “Description” field where you can fin
 I have merged this information with the “listings.csv” file, a ~2 MB CSV file. The result is a ~14 MB CSV file which, 
 when cleaned to be ready for exploration, is ~1.4 MB file.
 
-A previw of the original data can be found [here](http://insideairbnb.com/milan/).
+A previw of the original data can be found [here](http://insideairbnb.com/paris/).
 
 ## 4. How to interact with this project
 
