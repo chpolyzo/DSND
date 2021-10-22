@@ -28,7 +28,7 @@ A [medium blogpost](https://chpolyzo.medium.com/small-apartment-in-paris-378a4ae
 
 ## 3. File descriptions
 
-The [milan_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/air_bnb/paris_listings.ipynb) jupyter notebook has to be run
+The [paris_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/paris/paris_listings.ipynb) jupyter notebook has to be run
 to load clean and produce all visualizations.
 
 Interactive visualizations are also stored in [my plotly profile](https://chart-studio.plotly.com/~chpolyzo)
@@ -45,7 +45,7 @@ A previw of the original data can be found [here](http://insideairbnb.com/paris/
 ## 4. How to interact with this project
 
 Please install all necessary libraries described above and run the jupyter notebook 
-[milan_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/air_bnb/milan_listings.ipynb)
+[paris_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/paris/paris_listings.ipynb)
 
 ## 5. Licencing, Authors, Acknowledgments
 
