@@ -25,6 +25,18 @@ in the field to abolish any barrier and make our communities genuinely inclusive
 
 A [medium blogpost](https://chpolyzo.medium.com/small-apartment-in-paris-378a4ae86073) has been written to support this project.
 
+## Gather, assess, clean data
+
+Data used for this story come from Inside Airbnb. Inside Airbnb is a mission-driven activist project to provide data that quantifies the impact of short-term rentals on housing and residential communities; and provides a platform to support advocacy for policies to protect cities from the effects of short-term rentals.
+I had to fix nulls in many fields, which I did, but the most problematic issue to assess was the many listings that did not have a "description". I used the "description" field to understand how hosts perceive the importance of sharing accessibility information for their listing. I used the name of the listing in those cases as much information was there. Figure 1 shows the distribution of null values in the Dataset.
+
+Data Cleaning
+I dropped "neighbourhood_group", "last_review", "reviews_per_month", "license" fields due to the percentage of nulls and their relative low pertinence to this story. I renamed using "name_missing" all listings missing name information and "host_name_missing" all listings missing hostname information. I dropped outliers in the price column regarding listings exceeding 2000 euros per day. I dropped apartments available for more than 365 days a year and listings with availability less than one day, having less than five reviews in the last 12 months. I fixed listing availability with less than one day and more than five reviews in the previous 12 months by replacing it with mean availability. I dropped listings with no description, number of people accommodating and missing "reviews" in the last 12 months. I also dropped records without "description" and "reviews" in the previous 12 months. I fixed the rest of the descriptions by copying the name to the description field.
+
+I used the Regular Expressions and Natural Language Processing Toolkit to process the listings description field and extract elevator information as a keyword. The procedure tells us how the host understands the importance of sharing elevator information in the description rather than the data itself. The result is a binary field saying if the listing involves elevator information not. I dropped the original description field once I completed the procedure.
+
+I also created four binary variables out of the " room_type" field. I kept the initial column along with the new four new variables: "entire_home_apt", "hotel_room", "private_room", "shared_room". Here is an immediate visualization tool describing room type.
+The final object to feed all graphic material is all listings grouped by neighbourhood. The entity "availability_365" determines the mean, minimum and maximum availability of a listing x days in the future. Note a listing may not be available because it has been booked by a guest or blocked by the host. The mean, minimum and maximum "minimum_nights" is the value of availability from the calendar (looking at 365 nights in the future). After normalizing the price by removing outliers, I have included mean, minimum and maximum fees. Lastly, I have summed up "entire_home_apt", "hotel_room", "private_room", "shared_room" per neighbourhood.
 
 ## 3. File descriptions
 
