@@ -40,7 +40,7 @@ The final object to feed all graphic material is all listings grouped by neighbo
 
 ## 3. File descriptions
 
-The [milan_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/air_bnb/paris_listings.ipynb) jupyter notebook has to be run
+The [paris_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/paris/paris_listings.ipynb) jupyter notebook has to be run
 to load clean and produce all visualizations.
 
 Interactive visualizations are also stored in [my plotly profile](https://chart-studio.plotly.com/~chpolyzo)
@@ -52,12 +52,12 @@ you get a ~40 MB CSV file containing a “Description” field where you can fin
 I have merged this information with the “listings.csv” file, a ~2 MB CSV file. The result is a ~14 MB CSV file which, 
 when cleaned to be ready for exploration, is ~1.4 MB file.
 
-A previw of the original data can be found [here](http://insideairbnb.com/milan/).
+A previw of the original data can be found [here](http://insideairbnb.com/paris/).
 
 ## 4. How to interact with this project
 
 Please install all necessary libraries described above and run the jupyter notebook 
-[milan_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/air_bnb/milan_listings.ipynb)
+[paris_listings](https://github.com/chpolyzo/DSND/blob/master/Blog_Post/paris/paris_listings.ipynb)
 
 ## 5. Licencing, Authors, Acknowledgments
 
